@@ -846,7 +846,7 @@
 
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canChicken" value="2" />
-		<reward type="Skill" id="craftSkillScience" value="1" stage="aftercomplete"/>	
+		<reward type="Item" id="scienceCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingscientist4" />
     </quest>
 	
@@ -929,7 +929,6 @@
 		<objective type="FetchKeep" id="gunPistol" value="1" />
 		<objective type="FetchKeep" id="9mmBullet" value="50" />
 
-		<reward type="SkillPoints" value="5" />
 		<reward type="Item" id="gunCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingsecurity5" />
     </quest>
@@ -952,6 +951,7 @@
 		<objective type="Craft" id="clubIron" value="1" />
 		<objective type="ZombieKill" value="10" />
 
+		<reward type="SkillPoints" value="5" />
 		<reward type="Item" value="M4A1Schematic" />
 		<reward type="Skill" id="ClassSecurity" value="1" stage="aftercomplete"/> 
     </quest> 
